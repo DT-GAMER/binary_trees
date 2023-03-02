@@ -3,17 +3,9 @@
 size_t binary_tree_depth2(const binary_tree_t *tree);
 
 /**
-
  * binary_tree_depth2 - measures the height of a binary tree
-
- *
-
  *@tree: pointer to tree
-
- *
-
  *Return: height
-
  */
 
 size_t binary_tree_depth2(const binary_tree_t *tree)
@@ -35,17 +27,9 @@ size_t binary_tree_depth2(const binary_tree_t *tree)
 }
 
 /**
-
  *binary_tree_depth - measures the depth of a binary tree
-
- *
-
  *@tree: pointer to tree
-
- *
-
  *Return: depth
-
  */
 
 size_t binary_tree_depth(const binary_tree_t *tree)
