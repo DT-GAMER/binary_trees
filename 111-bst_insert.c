@@ -3,13 +3,9 @@
 /**
 
  * bst_insert - insert nodes in order to create a BST tree
-
  * @tree: tree to create with type BST
-
  * @value: value of node to insert
-
  * Return: BST tree
-
  */
 
 bst_t *bst_insert(bst_t **tree, int value)
