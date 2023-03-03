@@ -5,19 +5,10 @@ size_t binary_tree_balance2(const binary_tree_t *tree,
 			    const binary_tree_t *tree2);
 
 /**
-
  * binary_tree_balance2 - measures the balance factor of a binary tree
-
- *
-
  *@tree: pointer to tree
-
  *@tree2: pointer to sub tree
-
- *
-
  *Return: Balance factor
-
  */
 
 size_t binary_tree_balance2(const binary_tree_t *tree,
@@ -53,17 +44,9 @@ return (cont2 + 1);
 }
 
 /**
-
  * binary_tree_balance - measures the balance factor of a binary tree
-
- *
-
  *@tree: pointer to tree
-
- *
-
  *Return: Balance factor
-
  */
 
 int binary_tree_balance(const binary_tree_t *tree)
